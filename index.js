@@ -91,3 +91,11 @@ function writeToFile(fileName, data) {
         }
     })
 };
+
+function init() {
+    inquirer.prompt(questions).then(function (data){
+        writeToFile("README.md", generateMarkdown(data));
+    })
+};
+
+init();
