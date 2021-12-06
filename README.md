@@ -33,8 +33,8 @@ A command-line application that dynamically generates a professionald README.md 
   * License
     * a badge is added near the top after a license is picked from a list
   
-* This is a sample [README](Assets/README.md) file for a project generated using this application
-  ![Sample Readme.md File](Assets/readme-demo-sample.png)
+* This is a sample [README](assets/README.md) file for a project generated using this application
+  ![Sample Readme.md File](assets/readme-demo-sample.png)
   
 * [Video Demo](https://drive.google.com/file/d/1cGWd1fgF_1T1bOfJ3wUZ5JSAclSKkKev/view)
 
