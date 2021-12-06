@@ -31,6 +31,53 @@ const questions = [
         },
     },
     {
-        
+        type: 'input',
+        name: 'installation',
+        message: 'Enter instruction for installation',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter instruction.'}
+        },
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'What is the usage information',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter usage information.'}
+        },
+    },
+    {
+        type: 'input',
+        name: 'contribution',
+        message: 'What are contribution guidelines?',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter your contribution guidelines.'}
+        },
+    },
+    {
+        type: "input",
+        name: 'test',
+        message: 'what are the test instructions?',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter your test instructions.'}
+        },
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your Github username',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter your username'}
+        }, 
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
+        validate: (value) => {
+            if (emailValidator.validate(value)) {
+                return true
+            } else { return 'Please enter valid email address'}
+        },
     }
-]
+];
